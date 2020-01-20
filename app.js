@@ -1,4 +1,5 @@
 function myFunction() {
+  //Moi
     let x = document.getElementById("spaBtn");
   let y = document.getElementById("normiBtn");
   let z = document.getElementById("content");
