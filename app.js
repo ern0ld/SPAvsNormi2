@@ -5,8 +5,11 @@ function myFunction() {
 
   //Luodaan uusi otsikkoelementti
   let headerElement = document.createElement("h1");
+  let spanElement = document.createElement("span");
   //Asetetaan otsikkoelementin teksti
-  headerElement.innerText = "Tämä on toinen sivu";
+  spanElement.innerText = "Tämä on toinen sivu";
+  
+  headerElement.appendChild(spanElement);
   
   //Piilotetaan index.html näppäimet
     y.hidden = true;
