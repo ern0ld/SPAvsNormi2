@@ -3,16 +3,14 @@
 <body>
     <!---Kutsutaan toista sivua "perinteisellä tyylillä"-->
     
-        <button type="submit" button id="normiBtn" formaction="SPAvsNormi2/secondpage.html">Tee jotain (Perinteinen)</button>
+       <!---<button type="submit" button id="normiBtn" formaction="SPAvsNormi2/secondpage.html">Tee jotain (Perinteinen)</button>--> 
       
 
-<!---<button type="button" id="normiBtn" onclick="normiFunction()">Tee jotain (Normi)</button>--->
+<button type="button" id="normiBtn" onclick="normiFunction()">Tee jotain (Normi)</button>
 
 <script>
   function normiFunction(){
-  let y = document.getElementById("normiBtn");
-  document.querySelector('#normiBtn').innerText = 'Vaihdettu';
-  let secondPage = document.ge
+  document.location("/secondpage.html");
     
   }
 </script>
