@@ -8,6 +8,7 @@ function myFunction() {
   document.querySelector('#spaBtn').innerText = 'Vaihdettu';
   //location.replace("https://www.google.com")
     x.disabled = true;
+    y.hidden = true;
   x.hidden = true;
   document.body.appendChild(headerElement);
   console.log(document.location); 
