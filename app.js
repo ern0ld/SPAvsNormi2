@@ -1,5 +1,6 @@
 function myFunction() {
   //Luodaan index.html-sivulla olevista näppäimistä muuttujat
+  //testikommentti
     let x = document.getElementById("spaBtn");
   let y = document.getElementById("normiBtn");
 
