@@ -18,4 +18,9 @@ function myFunction() {
   //Lisätään luotu otsikkoelementti sivustolle
   document.body.appendChild(headerElement);
  
+<<<<<<< HEAD
   }
+=======
+  }
+  console.log("moi");
+>>>>>>> perkele
