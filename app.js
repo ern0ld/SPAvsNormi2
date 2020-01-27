@@ -17,10 +17,7 @@ function myFunction() {
   x.hidden = true;
   //Lisätään luotu otsikkoelementti sivustolle
   document.body.appendChild(headerElement);
- 
-<<<<<<< HEAD
-  }
-=======
+
   }
   console.log("moi");
->>>>>>> perkele
+
