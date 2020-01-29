@@ -25,8 +25,10 @@ function myFunction() {
  
 
   }
-pageBtn.onclick = function(){createObjectPage()};
-
+//pageBtn.onclick = function(){createObjectPage()};
+function replace(){
+location.replace("secondpage.html");
+}
 //pageBtn.addEventListener("click", createObjectPage());
 function createObjectPage(){
   let objectPage = document.createElement("object");
