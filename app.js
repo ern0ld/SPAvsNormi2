@@ -26,7 +26,7 @@ function myFunction() {
  
 
   }
-//pageBtn.onclick = function(){createObjectPage()};
+pageBtn.onclick = function(){createObjectPage()};
 
 //pageBtn.addEventListener("click", createObjectPage());
 function createObjectPage(){
