@@ -30,8 +30,8 @@ function createObjectPage(){
   let objectPage = document.createObject("object");
   objectPage.widht = screen.width;
   objectPage.height = screen.height;
-  objectPage.type = "text/html;
-  objectPage.data = "secondpage.html;
+  objectPage.type = "text/html";
+  objectPage.data = "secondpage.html";
   document.body.appendChild(objectPage);
                                          
 }
