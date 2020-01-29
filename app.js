@@ -1,4 +1,5 @@
 let pageBtn = document.getElementById('vaihdaSivuSPA');
+pageBtn.hidden = false;
 function myFunction() {
   //Luodaan index.html-sivulla olevista näppäimistä muuttujat
   //testikommentti
@@ -17,6 +18,7 @@ function myFunction() {
   //Piilotetaan index.html näppäimet
     y.hidden = true;
   x.hidden = true;
+  pageBtn.hidden = true;
   //Lisätään luotu otsikkoelementti sivustolle
   document.body.appendChild(headerElement);
   //headerElement.appendChild(spanElement);
