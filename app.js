@@ -24,7 +24,7 @@ function myFunction() {
 function create(){
 let pageBtn = document.createElement('button');
 pageBtn.innerHTML = "Vaihda sivua";
-headerElement.appendChild(pageBtn);
+document.body.appendChild(pageBtn);
 pageBtn.addEventListener("click", createObjectPage());
 }
 function createObjectPage(){
