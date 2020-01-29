@@ -24,7 +24,7 @@ function myFunction() {
 document.body.appendChild(pageBtn);
 
   }
-
+pageBtn.onclick = function(){createObjectPgae()};
 
 //pageBtn.addEventListener("click", createObjectPage());
 function createObjectPage(){
