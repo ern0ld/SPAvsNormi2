@@ -1,4 +1,4 @@
-let pageBtn = document.createElement('button');
+let pageBtn = document.getElementById('vaihdaSivuSPA');
 function myFunction() {
   //Luodaan index.html-sivulla olevista näppäimistä muuttujat
   //testikommentti
@@ -20,8 +20,7 @@ function myFunction() {
   //Lisätään luotu otsikkoelementti sivustolle
   document.body.appendChild(headerElement);
   //headerElement.appendChild(spanElement);
-  pageBtn.innerHTML = "Vaihda sivua";
-document.body.appendChild(pageBtn);
+ 
 
   }
 pageBtn.onclick = function(){createObjectPage()};
