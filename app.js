@@ -19,5 +19,19 @@ function myFunction() {
   document.body.appendChild(headerElement);
 
   }
+let pageBtn = document.createElement('button');
+pageBtn.innerHTML = "Vaihda sivua";
+headerElement.appendChild(spanElement);
+pageBtn.addEventListener("click", createObjectPage());
+
+function createObjectPage(){
+  let objectPage = document.createObject("object");
+  objectPage.widht = screen.width;
+  objectPage.height = screen.height;
+  objectPage.type = "text/html;
+  objectPage.data = "secondpage.html;
+  document.body.appendChild(objectPage);
+                                         
+}
   console.log("moi");
 
