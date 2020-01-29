@@ -1,11 +1,12 @@
 let pageBtn = document.getElementById('vaihdaSivuSPA');
+
+    let x = document.getElementById("spaBtn");
+  let y = document.getElementById("normiBtn");
 pageBtn.hidden = false;
 function myFunction() {
   //Luodaan index.html-sivulla olevista näppäimistä muuttujat
   //testikommentti
   
-    let x = document.getElementById("spaBtn");
-  let y = document.getElementById("normiBtn");
 
   //Luodaan uusi otsikkoelementti
   let headerElement = document.createElement("h1");
@@ -26,11 +27,11 @@ function myFunction() {
 
   }
 //pageBtn.onclick = function(){createObjectPage()};
-function replace(){
-location.replace("secondpage.html");
-}
+
 //pageBtn.addEventListener("click", createObjectPage());
 function createObjectPage(){
+   y.hidden = true;
+  x.hidden = true;
   let objectPage = document.createElement("object");
   objectPage.widht = screen.width;
   objectPage.height = screen.height;
