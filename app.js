@@ -32,6 +32,7 @@ pageBtn.onclick = function(){createObjectPage()};
 function createObjectPage(){
    y.hidden = true;
   x.hidden = true;
+    pageBtn.hidden = true;
   let objectPage = document.createElement("object");
   objectPage.widht = screen.width;
   objectPage.height = screen.height;
