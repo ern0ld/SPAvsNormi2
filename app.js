@@ -20,15 +20,12 @@ function myFunction() {
   //Lisätään luotu otsikkoelementti sivustolle
   document.body.appendChild(headerElement);
   //headerElement.appendChild(spanElement);
+  pageBtn.innerHTML = "Vaihda sivua";
+document.body.appendChild(pageBtn);
 
   }
 
-function create(){
 
-pageBtn.innerHTML = "Vaihda sivua";
-document.body.appendChild(pageBtn);
-
-}
 pageBtn.addEventListener("click", createObjectPage());
 function createObjectPage(){
   let objectPage = document.createElement("object");
@@ -39,6 +36,6 @@ function createObjectPage(){
   document.body.appendChild(objectPage);
                                          
 }
-window.addEventListener('DOMContentLoaded', create());
+
   console.log("moi");
 
