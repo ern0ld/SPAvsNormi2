@@ -1,6 +1,8 @@
+let pageBtn = document.createElement('button');
 function myFunction() {
   //Luodaan index.html-sivulla olevista näppäimistä muuttujat
   //testikommentti
+  
     let x = document.getElementById("spaBtn");
   let y = document.getElementById("normiBtn");
 
@@ -22,11 +24,12 @@ function myFunction() {
   }
 
 function create(){
-let pageBtn = document.createElement('button');
+
 pageBtn.innerHTML = "Vaihda sivua";
 document.body.appendChild(pageBtn);
-pageBtn.addEventListener("click", createObjectPage());
+
 }
+pageBtn.addEventListener("click", createObjectPage());
 function createObjectPage(){
   let objectPage = document.createElement("object");
   objectPage.widht = screen.width;
