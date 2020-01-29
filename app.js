@@ -26,7 +26,7 @@ document.body.appendChild(pageBtn);
   }
 
 
-pageBtn.addEventListener("click", createObjectPage());
+//pageBtn.addEventListener("click", createObjectPage());
 function createObjectPage(){
   let objectPage = document.createElement("object");
   objectPage.widht = screen.width;
