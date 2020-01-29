@@ -17,13 +17,14 @@ function myFunction() {
   x.hidden = true;
   //Lisätään luotu otsikkoelementti sivustolle
   document.body.appendChild(headerElement);
+  //headerElement.appendChild(spanElement);
 
   }
-window.addEventListener('DOMContentLoaded', create());
+
 function create(){
 let pageBtn = document.createElement('button');
 pageBtn.innerHTML = "Vaihda sivua";
-headerElement.appendChild(spanElement);
+
 pageBtn.addEventListener("click", createObjectPage());
 }
 function createObjectPage(){
@@ -35,5 +36,6 @@ function createObjectPage(){
   document.body.appendChild(objectPage);
                                          
 }
+window.addEventListener('DOMContentLoaded', create());
   console.log("moi");
 
