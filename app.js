@@ -28,7 +28,7 @@ pageBtn.innerHTML = "Vaihda sivua";
 pageBtn.addEventListener("click", createObjectPage());
 }
 function createObjectPage(){
-  let objectPage = document.createObject("object");
+  let objectPage = document.createElement("object");
   objectPage.widht = screen.width;
   objectPage.height = screen.height;
   objectPage.type = "text/html";
