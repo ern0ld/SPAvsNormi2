@@ -5,7 +5,7 @@
     
 <button type="button" id="normiBtn" onclick="normiFunction()">Tee jotain (Normi)</button>
 
-<!--Scripti osiossa voi luoda funktioita, tässä tapauksessa asetetaan ikkunan näkymäksi secondpage.html-->
+<!--Scripti osiossa voi luoda funktioita, tässä tapauksessa asetetaan ikkunan lokaatioksi secondpage.html-->
 <script>
   function normiFunction(){
     window.location.href = "secondpage.html";
@@ -15,8 +15,9 @@
 
 <!--Luodaan näppäin, nimetään se id:llä ja käsketään painettaessa kutsua myFunction-funkiota, joka sijaitsee app.js-scriptissä-->
 <button type="button" id="spaBtn" onclick="myFunction()">Muuta sivu (SPA)</button>
-<button type="button" id="vaihdaSivuSPA">Vaihda sivu (SPA)</button>
+    <button type="button" id="vaihdaSivuSpa" onClick="replace()">Vaihda sivu (SPA)</button>
 <!--Tässä asetetaan sivuston scriptin sijainti-->
  <script src="app.js"></script>
 </body>
+    
 </html>
